@@ -1,93 +1,173 @@
-## Contents
+# Table of Contents
+
+- [Introduction](#introduction)
+  - [Purpose of the Handbook](#purpose-of-the-handbook)
+  - [Overview of ChatGPT](#overview-of-chatgpt)
+  - [Importance of Consistent Prompting Techniques](#importance-of-consistent-prompting-techniques)
+- [Section 1: Understanding ChatGPT](#section-1-understanding-chatgpt)
+  - [What is ChatGPT?](#what-is-chatgpt)
+  - [How ChatGPT Works](#how-chatgpt-works)
+  - [Benefits of Using ChatGPT](#benefits-of-using-chatgpt)
+- [Section 2: The 5D Workflow](#section-2-the-5d-workflow)
+  - [Overview of the 5D Methodology](#overview-of-the-5d-methodology)
+    - [Discover: Identifying the problem](#discover-identifying-the-problem)
+    - [Define: Defining the solution](#define-defining-the-solution)
+    - [Design: Designing the system](#design-designing-the-system)
+    - [Develop: Developing the application](#develop-developing-the-application)
+    - [Deploy: Deploying to the live environment](#deploy-deploying-to-the-live-environment)
+  - [Integration of AI in the 5D Workflow](#integration-of-ai-in-the-5d-workflow)
+  - [Roles and Responsibilities in the 5D Workflow](#roles-and-responsibilities-in-the-5d-workflow)
+- [Section 3: Crafting Effective Prompts](#section-3-crafting-effective-prompts)
+  - [Basic Principles of Prompting](#basic-principles-of-prompting)
+    - [Clarity](#clarity)
+    - [Specificity](#specificity)
+    - [Contextual Information](#contextual-information)
+  - [Types of Prompts](#types-of-prompts)
+    - [Direct Prompts](#direct-prompts)
+    - [Contextual Prompts](#contextual-prompts)
+    - [Instructional Prompts](#instructional-prompts)
+- [Section 4: Prompting Techniques for Different Stages](#section-4-prompting-techniques-for-different-stages)
+  - [Discover Stage](#discover-stage)
+    - [Information Gathering Prompts](#information-gathering-prompts)
+    - [Research and Analysis Prompts](#research-and-analysis-prompts)
+  - [Define Stage](#define-stage)
+    - [Problem Definition Prompts](#problem-definition-prompts)
+    - [Solution Outlining Prompts](#solution-outlining-prompts)
+  - [Design Stage](#design-stage)
+    - [System Design Prompts](#system-design-prompts)
+    - [Architecture Prompts](#architecture-prompts)
+  - [Develop Stage](#develop-stage)
+    - [Coding Assistance Prompts](#coding-assistance-prompts)
+    - [Debugging Prompts](#debugging-prompts)
+  - [Deploy Stage](#deploy-stage)
+    - [Deployment Strategy Prompts](#deployment-strategy-prompts)
+    - [Rollout and Monitoring Prompts](#rollout-and-monitoring-prompts)
+- [Section 5: Review, Audit, and Approval Process](#section-5-review-audit-and-approval-process)
+  - [Importance of Review and Audit](#importance-of-review-and-audit)
+  - [Steps for Reviewing AI Outputs](#steps-for-reviewing-ai-outputs)
+    - [Initial Review](#initial-review)
+    - [Detailed Audit](#detailed-audit)
+    - [Final Approval](#final-approval)
+  - [Templates and Checklists for Review](#templates-and-checklists-for-review)
+- [Section 6: Practical Examples and Templates](#section-6-practical-examples-and-templates)
+  - [Example Prompts for Each Stage](#example-prompts-for-each-stage)
+    - [Discover Examples](#discover-examples)
+    - [Define Examples](#define-examples)
+    - [Design Examples](#design-examples)
+    - [Develop Examples](#develop-examples)
+    - [Deploy Examples](#deploy-examples)
+  - [Templates for Common Use Cases](#templates-for-common-use-cases)
+    - [Generic Prompt Template](#generic-prompt-template)
+    - [Proposal Template](#proposal-template)
+    - [Change Request Template](#change-request-template)
+- [Section 7: Best Practices and Guidelines](#section-7-best-practices-and-guidelines)
+  - [General Guidelines for Effective Use of ChatGPT](#general-guidelines-for-effective-use-of-chatgpt)
+  - [Common Pitfalls and How to Avoid Them](#common-pitfalls-and-how-to-avoid-them)
+  - [Continuous Improvement of Prompting Techniques](#continuous-improvement-of-prompting-techniques)
+- [Section 8: Tools and Resources](#section-8-tools-and-resources)
+  - [Recommended Tools for Enhancing Prompting](#recommended-tools-for-enhancing-prompting)
+  - [Additional Resources and References](#additional-resources-and-references)
+    - [Documentation](#documentation)
+    - [Tutorials](#tutorials)
+    - [Community Forums](#community-forums)
+- [Conclusion](#conclusion)
+  - [Recap of Key Points](#recap-of-key-points)
+  - [Encouragement to Practice and Experiment](#encouragement-to-practice-and-experiment)
+  - [Contact Information for Support](#contact-information-for-support)
+- [Appendix](#appendix)
+  - [Glossary of Terms](#glossary-of-terms)
+  - [Frequently Asked Questions (FAQs)](#frequently-asked-questions-faqs)
+  - [Further Reading and References](#further-reading-and-references)
 
 ### Introduction
-- Purpose of the Handbook
-- Overview of ChatGPT
-- Importance of Consistent Prompting Techniques
+- [Purpose of the Handbook](#purpose-of-the-handbook)
+- [Overview of ChatGPT](#overview-of-chatgpt)
+- [Importance of Consistent Prompting Techniques](#importance-of-consistent-prompting-techniques)
 
 ### Section 1: Understanding ChatGPT
-- What is ChatGPT?
-- How ChatGPT Works
-- Benefits of Using ChatGPT
+- [What is ChatGPT?](#what-is-chatgpt)
+- [How ChatGPT Works](#how-chatgpt-works)
+- [Benefits of Using ChatGPT](#benefits-of-using-chatgpt)
 
 ### Section 2: The 5D Workflow
-- Overview of the 5D Methodology
-  - Discover: Identifying the problem
-  - Define: Defining the solution
-  - Design: Designing the system
-  - Develop: Developing the application
-  - Deploy: Deploying to the live environment
-- Integration of AI in the 5D Workflow
-- Roles and Responsibilities in the 5D Workflow
+- [Overview of the 5D Methodology](#overview-of-the-5d-methodology)
+  - [Discover: Identifying the problem](#discover-identifying-the-problem)
+  - [Define: Defining the solution](#define-defining-the-solution)
+  - [Design: Designing the system](#design-designing-the-system)
+  - [Develop: Developing the application](#develop-developing-the-application)
+  - [Deploy: Deploying to the live environment](#deploy-deploying-to-the-live-environment)
+- [Integration of AI in the 5D Workflow](#integration-of-ai-in-the-5d-workflow)
+- [Roles and Responsibilities in the 5D Workflow](#roles-and-responsibilities-in-the-5d-workflow)
 
 ### Section 3: Crafting Effective Prompts
-- Basic Principles of Prompting
-  - Clarity
-  - Specificity
-  - Contextual Information
-- Types of Prompts
-  - Direct Prompts
-  - Contextual Prompts
-  - Instructional Prompts
+- [Basic Principles of Prompting](#basic-principles-of-prompting)
+  - [Clarity](#clarity)
+  - [Specificity](#specificity)
+  - [Contextual Information](#contextual-information)
+- [Types of Prompts](#types-of-prompts)
+  - [Direct Prompts](#direct-prompts)
+  - [Contextual Prompts](#contextual-prompts)
+  - [Instructional Prompts](#instructional-prompts)
 
 ### Section 4: Prompting Techniques for Different Stages
-- Discover Stage
-  - Information Gathering Prompts
-  - Research and Analysis Prompts
-- Define Stage
-  - Problem Definition Prompts
-  - Solution Outlining Prompts
-- Design Stage
-  - System Design Prompts
-  - Architecture Prompts
-- Develop Stage
-  - Coding Assistance Prompts
-  - Debugging Prompts
-- Deploy Stage
-  - Deployment Strategy Prompts
-  - Rollout and Monitoring Prompts
+- [Discover Stage](#discover-stage)
+  - [Information Gathering Prompts](#information-gathering-prompts)
+  - [Research and Analysis Prompts](#research-and-analysis-prompts)
+- [Define Stage](#define-stage)
+  - [Problem Definition Prompts](#problem-definition-prompts)
+  - [Solution Outlining Prompts](#solution-outlining-prompts)
+- [Design Stage](#design-stage)
+  - [System Design Prompts](#system-design-prompts)
+  - [Architecture Prompts](#architecture-prompts)
+- [Develop Stage](#develop-stage)
+  - [Coding Assistance Prompts](#coding-assistance-prompts)
+  - [Debugging Prompts](#debugging-prompts)
+- [Deploy Stage](#deploy-stage)
+  - [Deployment Strategy Prompts](#deployment-strategy-prompts)
+  - [Rollout and Monitoring Prompts](#rollout-and-monitoring-prompts)
 
 ### Section 5: Review, Audit, and Approval Process
-- Importance of Review and Audit
-- Steps for Reviewing AI Outputs
-  - Initial Review
-  - Detailed Audit
-  - Final Approval
-- Templates and Checklists for Review
+- [Importance of Review and Audit](#importance-of-review-and-audit)
+- [Steps for Reviewing AI Outputs](#steps-for-reviewing-ai-outputs)
+  - [Initial Review](#initial-review)
+  - [Detailed Audit](#detailed-audit)
+  - [Final Approval](#final-approval)
+- [Templates and Checklists for Review](#templates-and-checklists-for-review)
 
 ### Section 6: Practical Examples and Templates
-- Example Prompts for Each Stage
-  - Discover Examples
-  - Define Examples
-  - Design Examples
-  - Develop Examples
-  - Deploy Examples
-- Templates for Common Use Cases
-  - Generic Prompt Template
-  - Proposal Template
-  - Change Request Template
+- [Example Prompts for Each Stage](#example-prompts-for-each-stage)
+  - [Discover Examples](#discover-examples)
+  - [Define Examples](#define-examples)
+  - [Design Examples](#design-examples)
+  - [Develop Examples](#develop-examples)
+  - [Deploy Examples](#deploy-examples)
+- [Templates for Common Use Cases](#templates-for-common-use-cases)
+  - [Generic Prompt Template](#generic-prompt-template)
+  - [Proposal Template](#proposal-template)
+  - [Change Request Template](#change-request-template)
 
 ### Section 7: Best Practices and Guidelines
-- General Guidelines for Effective Use of ChatGPT
-- Common Pitfalls and How to Avoid Them
-- Continuous Improvement of Prompting Techniques
+- [General Guidelines for Effective Use of ChatGPT](#general-guidelines-for-effective-use-of-chatgpt)
+- [Common Pitfalls and How to Avoid Them](#common-pitfalls-and-how-to-avoid-them)
+- [Continuous Improvement of Prompting Techniques](#continuous-improvement-of-prompting-techniques)
 
 ### Section 8: Tools and Resources
-- Recommended Tools for Enhancing Prompting
-- Additional Resources and References
-  - Documentation
-  - Tutorials
-  - Community Forums
+- [Recommended Tools for Enhancing Prompting](#recommended-tools-for-enhancing-prompting)
+- [Additional Resources and References](#additional-resources-and-references)
+  - [Documentation](#documentation)
+  - [Tutorials](#tutorials)
+  - [Community Forums](#community-forums)
 
 ### Conclusion
-- Recap of Key Points
-- Encouragement to Practice and Experiment
-- Contact Information for Support
+- [Recap of Key Points](#recap-of-key-points)
+- [Encouragement to Practice and Experiment](#encouragement-to-practice-and-experiment)
+- [Contact Information for Support](#contact-information-for-support)
 
 ### Appendix
-- Glossary of Terms
-- Frequently Asked Questions (FAQs)
-- Further Reading and References
+- [Glossary of Terms](#glossary-of-terms)
+- [Frequently Asked Questions (FAQs)](#frequently-asked-questions-faqs)
+- [Further Reading and References](#further-reading-and-references)
+
 
 
 ### Introduction
